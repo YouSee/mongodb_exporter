@@ -1,3 +1,5 @@
+(Fork of dcu/mongo_exporter as a result of of https://github.com/dcu/mongodb_exporter/issues/64)
+
 # Mongodb Exporter
 
 MongoDB exporter for prometheus.io, written in go.
