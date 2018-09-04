@@ -1,4 +1,4 @@
-(Fork of dcu/mongo_exporter as a result of of https://github.com/dcu/mongodb_exporter/issues/64)
+(Fork of dcu/mongo_exporter as a result of https://github.com/dcu/mongodb_exporter/issues/64)
 
 # Mongodb Exporter
 
