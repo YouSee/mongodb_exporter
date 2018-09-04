@@ -12,4 +12,4 @@ EXPOSE     9001
 RUN apk add --update ca-certificates
 COPY --from=builder /go/src/github.com/dcu/mongodb_exporter/release/mongodb_exporter-linux-amd64 /usr/local/bin/mongodb_exporter
 
-ENTRYPOINT [ "mongodb_exporter" ]
+ENTRYPOINT ["mongodb_exporter", "-mongodb.collect.replset=false", "-mongodb.collect.oplog=false"]
